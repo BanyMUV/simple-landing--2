@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&family=Rubik:ital,wght@0,700;1,400&display=swap');
+
+html{
+    scroll-behavior: smooth;
+  }
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #774E2E;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    background-color: #F5F5F5;
+    letter-spacing: 0.01em;
+}
+.max-width-page{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* ------ HEADER ------ */
+header .max-width-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo a img{
+    width: 79px;
+    height: 79px;
+    margin: 30px;
+}
+.list-item{
+    list-style: none;
+}
+nav ul a:first-child{
+    padding-left: 0;
+}
+nav ul a{
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 50px;
+}
+.link-style:active{
+    color: #774E2E;
+}
+.link-style:visited{
+    color: #774E2E;
+}
+/* ------ MAIN ------ */
+/* ------ description-yummy ------ */
+.description-yummy{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 150px;
+}
+h1{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 110px;
+    line-height: 100%;
+    letter-spacing: 0.05em;
+    margin-bottom: 40px;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 110%;
+    text-align: center;
+    margin: 0;
+
+}
+h3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    color: #673B19;
+}
+.orange-text{
+    color: #F37F34;
+}
+.about-yummy{
+    margin-left: 30px;
+    width: 575;
+}
+.image-yummy-skate{
+    width: 575;
+}
+.text-about-yummy{
+    line-height: 150%;
+}
+.button-brown{
+    display: flex;
+    background-color: #774E2E;
+    width: 343px;
+    height: 69px;
+    box-sizing: border-box;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 130%;
+    color: #fff;
+    margin-top: 50px;
+}
+/* ------ my-favorite-sweets ------ */
+.my-favorite-sweets{
+    background-color: #FFF9EA;
+    padding: 150px 0;
+}
+.gallery{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.candy-block{
+    width: 370px;
+    height: 462px;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.candy-block img,
+.candy-block h3,
+.candy-block p{
+    margin: 0;
+    padding: 0;
+}
+.candy-block p{
+    padding-top: 15px;
+}
+.description-candy{
+    text-align: center;
+    margin: 36px 20px;
+}
+.candy-block:last-child{
+    margin-right: 0;
+}
+/* ------ advantages-yummy ------ */
+.advantages-yummy .max-width-page{
+    margin-top: 200px;
+    display: flex;
+}
+.advantages-yummy-block{
+    width: 575px;
+}
+.advantages-yummy-description{
+    margin-right: 20px;
+}
+.advantages-yummy-description h2{
+    width: 455px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.advantages-yummy-description h3{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.sweets-list{
+    padding-left: 30px;
+}
+/* ------ FOOTER ------ */
+footer {
+    background-color: #774E2E;
+    width: 100%;
+    
+}
+.max-width-page .footer-style{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer img{
+    width: 99px;
+    height: 99px;
+    margin: 40px;
+}
+footer p{
+    color: #fff;
+    font-size: 36px;
+}
